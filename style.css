@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(5, 5, 5);
+    color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(69, 3, 95);
+    padding: 30px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 40px;
+    color: white;
+}
+header p{
+    color: white;
+    font-size: 20px;
+}
+main{
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.top-item{
+    display: flex;
+    align-items: center;
+    background-color: rgb(76, 1, 99);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgb(190, 50, 255);
+    gap: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
